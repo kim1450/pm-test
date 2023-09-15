@@ -13,7 +13,7 @@ public class LiteralTest {
 		System.out.println(d);
 		System.out.println("2진수 0b111 = "+ 0b111);
 		System.out.println("8진수 0777 = "+ 0777 );
-		System.out.println("16진수 0xfff	= " + 0xfff);
+		System.out.println("16진수 0xfff = " + 0xfff);
 	}
 
 }
