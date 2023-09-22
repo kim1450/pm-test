@@ -17,8 +17,13 @@ public class Homework3 {
 				b[i] = 0;
 			}
 		}
+		
 		for(int i=0;i < a.length;i++) {
-			System.out.printf("%d: %d %n",a[i],b[i]);
+			if (b[i] != 0) {
+				System.out.printf("%d: %d %n",a[i],b[i]);
+			}else {
+				continue;
+			}
 		}
 	}
 
