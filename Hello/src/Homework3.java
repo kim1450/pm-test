@@ -4,7 +4,7 @@ public class Homework3 {
 	public static void main(String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("금액을 입력 : ");
+		System.out.println("input price(won) : ");
 		int sale = scanner.nextInt();
 		int[] a = {50000,10000,5000,1000,500,100,50,10,1};
 		int[] b = {0,0,0,0,0,0,0,0,0}; 
