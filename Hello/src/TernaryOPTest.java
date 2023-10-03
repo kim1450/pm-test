@@ -11,6 +11,8 @@ public class TernaryOPTest {
 		flag = (a % 2 == 0) ? true : false;
 		System.out.println(a + "이 짝수입니까? : " );
 		System.out.println(flag);
+		
+		stdin.close();
 
 	}
 
