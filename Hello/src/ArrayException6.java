@@ -12,7 +12,7 @@ public class ArrayException6 {
 					if (i==2) {
 						System.out.println(intArray[i]/0); 
 					}
-					
+					 
 					//고의적으로 예외 처리
 					if (i==1) {
 						ArithmeticException e = new ArithmeticException("intentionally raise");
