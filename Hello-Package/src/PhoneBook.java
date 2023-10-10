@@ -63,7 +63,7 @@ public class PhoneBook { // class2
         System.out.print("Number of Person>> "); // 인원수 input 받기
         Scanner scanner = new Scanner(System.in); 
         int num = scanner.nextInt();
-        //nextInt()는 정수를 읽은후 \n을 그대로 남겨두기 때문에 nextLine()을 호출하면 아무 입력 없이 넘어가는것으로 처리됨.
+        // nextInt()는 정수를 읽은후 \n을 그대로 남겨두기 때문에 nextLine()을 호출하면 아무 입력 없이 넘어가는것으로 처리됨.
         scanner.nextLine(); // 그렇기 때문에 \n 제거 
         Store store; // Store 클래스 객체 선언
         store = new Store(num);
