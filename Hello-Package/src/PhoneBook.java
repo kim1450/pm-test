@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Store{ // class1
+class Store{ // class 1
     private String[][] info_arr;
     private String name;
     private String phone;
@@ -56,7 +56,7 @@ class Store{ // class1
     
     }
 
-public class PhoneBook { // class2
+public class PhoneBook { // class 2
 
 	public static void main(String[] args) {
 		
