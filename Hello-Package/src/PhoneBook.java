@@ -12,10 +12,7 @@ class Store{ // class 1
             System.out.print("Name and Phonenumber (ex. 홍길동 010-1234-5678) >> ");
             String info = scanner.nextLine(); // name,phone_number를 받는다.
             String[] info_spl = info.split(" "); // 공백을 기준으로 split해준다.
-//            System.out.print(info_spl[0]);
-//            System.out.print(info_spl[1]);
             info_arr[i] = info_spl; // split한 값을 info_arr에 넣어준다.
-//            System.out.print(info_arr[0][1]);
         }
         System.out.println("Store Done");
         
@@ -29,7 +26,6 @@ class Store{ // class 1
     
 
     public String[][] getInfoArr() {
-//    	System.out.println(info_arr[0][0]);
         return info_arr;
     }
     
