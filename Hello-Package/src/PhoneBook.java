@@ -18,10 +18,14 @@ class Store{ // class 1
         
         
     }
-    
+
     public Store(String name,String phone) { // constructor 2
-    	this.name = name;
-    	this.phone = phone;
+        this.initialize(name, phone);
+    }
+
+    public void initialize(String name,String phone) {
+        this.name = name;
+        this.phone = phone;
     }
     
 
